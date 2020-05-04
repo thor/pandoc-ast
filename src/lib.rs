@@ -32,7 +32,7 @@ impl Pandoc {
         };
         assert_eq!(
             data.pandoc_api_version[0..2],
-            [1, 17],
+            [1, 20],
             "please file a bug report against `pandoc-ast` to update for the newest pandoc \
              version"
         );
